@@ -16,3 +16,15 @@ Finally, I obtain the mean of all columns with lapply grouped by subject and act
 
 ###Codebook
 
+The codebook used to name the variables is similar to that used originally, but with some fixes. I have eliminated the "/" and the "-" in all the names and the "()" in the names that are not related to the angle measure.
+
+I have also change the std to uppercase and capitalized the "mean" in all names.
+
+The rest is left as it was:
+  -"t" represents that the measures are in time domain and "f" that the measure is the FFT of the measure.
+  -The axis is specified at the end of the name with "X", "Y" or "Z".
+  -Whether the measure comes from the accelerometer or the gyroscope is specified with "acc" or "gyro".
+  -The acceleration signal is separated into body and gravity acceleration signals ((tBodyAccXYZ and tGravityAccXYZ)).
+  -The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerkXYZ and tBodyGyroJerkXYZ).
+  - The variables tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag are the measures of the euclidean norm of those three-dimentional signals.
+  
